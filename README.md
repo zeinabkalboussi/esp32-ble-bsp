@@ -7,7 +7,7 @@ Board Support Package for ESP32 BLE using NimBLE stack.
 
 Version: 1.0.0
 License: MIT
-Author: Sofiatech Tunisia – SofiOS Project
+
 
 📌 Overview
 
@@ -30,16 +30,7 @@ This BSP is designed to be easily integrated into embedded software following a 
 ✔ Generic command-based API (bsp_ble_control)
 ✔ Lightweight and suitable for RTOS environments
 
-📁 Project Structure
-components/
-│
-└── bsp_ble/
-    ├── include/
-    │   └── bsp_ble.h
-    ├── src/
-    │   └── bsp_ble.c
-    ├── CMakeLists.txt
-    └── README.md
+
 
 ⚙️ API Description
 🔧 Initialization
@@ -58,12 +49,21 @@ Examples:
 
 Command	Description
 BSP_COM_BLE_ADV_START	Start advertising
+
 BSP_COM_BLE_ADV_STOP	Stop advertising
+
 BSP_COM_BLE_ADD_SERVICE	Add a BLE service
+
 BSP_COM_BLE_ADD_CARACTERISTIC	Add a characteristic
+
 BSP_COM_BLE_ADD_NOTIFICATION	Enable Notify
+
 BSP_COM_BLE_ADD_INDICATE	Enable Indicate
+
 BSP_COM_BLE_SCAN_START	Start scanning
+
 BSP_COM_BLE_SCAN_STOP	Stop scanning
+
 BSP_COM_BLE_CENTRAL_WRITE	Central write
+
 BSP_COM_BLE_CENTRAL_READ	Central read
